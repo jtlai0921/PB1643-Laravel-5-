@@ -1,0 +1,9 @@
+<?php
+	$x=array(
+		0=>1,
+		1=>"Laravel",
+		"circle"=>3.14,
+		"Merry"=>"Christmas",
+		9,
+		"End"
+	);

@@ -1,0 +1,276 @@
+2016-08-31T03:49:17.339534Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-08-31T03:49:17.339534Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2016-08-31T03:49:17.339534Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2016-08-31T03:49:17.339534Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-08-31T03:49:17.340034Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 7980 ...
+2016-08-31T03:49:17.368555Z 0 [ERROR] Can't open shared library 'D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 找不到指定的模組。)
+2016-08-31T03:49:17.369555Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2016-08-31T03:49:17.371557Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-08-31T03:49:17.372057Z 0 [Note] InnoDB: Uses event mutexes
+2016-08-31T03:49:17.372557Z 0 [Note] InnoDB: Memory barrier is not used
+2016-08-31T03:49:17.373058Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-08-31T03:49:17.374058Z 0 [Note] InnoDB: Number of pools: 1
+2016-08-31T03:49:17.375059Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2016-08-31T03:49:17.439105Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2016-08-31T03:49:17.452615Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-08-31T03:49:17.495145Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-08-31T03:49:17.672271Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-08-31T03:49:17.673772Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-08-31T03:49:17.707295Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2016-08-31T03:49:17.715300Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-08-31T03:49:17.718304Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-08-31T03:49:17.729310Z 0 [Note] InnoDB: Waiting for purge to start
+2016-08-31T03:49:17.797859Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603309
+2016-08-31T03:49:17.798861Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-08-31T03:49:17.813371Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2016-08-31T03:49:17.859903Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-08-31T03:49:17.864407Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2016-08-31T03:49:17.865408Z 0 [Note] IPv6 is available.
+2016-08-31T03:49:17.865908Z 0 [Note]   - '::' resolves to '::';
+2016-08-31T03:49:17.866409Z 0 [Note] Server socket created on IP: '::'.
+2016-08-31T03:49:17.874414Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160831 11:49:17
+2016-08-31T03:49:17.944964Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-08-31T03:49:17.945964Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2016-08-31T03:51:00.762098Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2016-08-31T03:51:00.763098Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2016-08-31T03:51:00.763599Z 0 [Note] Shutting down slave threads
+2016-08-31T03:51:00.764099Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2016-08-31T03:51:00.764600Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2016-08-31T03:51:00.765100Z 0 [Note] Binlog end
+2016-08-31T03:51:00.766601Z 0 [Note] Shutting down plugin 'ngram'
+2016-08-31T03:51:00.767101Z 0 [Note] Shutting down plugin 'partition'
+2016-08-31T03:51:00.767602Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2016-08-31T03:51:00.768102Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2016-08-31T03:51:00.768602Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-08-31T03:51:00.769103Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-08-31T03:51:00.769103Z 0 [Note] Shutting down plugin 'MyISAM'
+2016-08-31T03:51:00.769603Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2016-08-31T03:51:00.770103Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-08-31T03:51:00.770604Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-08-31T03:51:00.771104Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-08-31T03:51:00.772105Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-08-31T03:51:00.772605Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-08-31T03:51:00.773106Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-08-31T03:51:00.773606Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-08-31T03:51:00.774106Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-08-31T03:51:00.774607Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-08-31T03:51:00.775107Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-08-31T03:51:00.775107Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-08-31T03:51:00.775607Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-08-31T03:51:00.776107Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-08-31T03:51:00.776608Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-08-31T03:51:00.777108Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-08-31T03:51:00.777608Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-08-31T03:51:00.778109Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2016-08-31T03:51:00.778609Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-08-31T03:51:00.779109Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-08-31T03:51:00.779610Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-08-31T03:51:00.780110Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-08-31T03:51:00.780610Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-08-31T03:51:00.781111Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-08-31T03:51:00.781612Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-08-31T03:51:00.781612Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-08-31T03:51:00.782112Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2016-08-31T03:51:00.782612Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-08-31T03:51:00.783112Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-08-31T03:51:00.783613Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2016-08-31T03:51:00.784113Z 0 [Note] Shutting down plugin 'InnoDB'
+2016-08-31T03:51:00.784614Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2016-08-31T03:51:00.785114Z 0 [Note] InnoDB: Starting shutdown...
+2016-08-31T03:51:00.892190Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2016-08-31T03:51:00.895193Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 160831 11:51:00
+2016-08-31T03:51:02.168097Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603786
+2016-08-31T03:51:02.170099Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2016-08-31T03:51:02.170599Z 0 [Note] Shutting down plugin 'MEMORY'
+2016-08-31T03:51:02.171100Z 0 [Note] Shutting down plugin 'CSV'
+2016-08-31T03:51:02.171600Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-08-31T03:51:02.172100Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-08-31T03:51:02.172601Z 0 [Note] Shutting down plugin 'binlog'
+2016-08-31T03:51:02.175102Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2016-08-31T03:51:03.178816Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-08-31T03:51:03.178816Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2016-08-31T03:51:03.178816Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2016-08-31T03:51:03.178816Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-08-31T03:51:03.179316Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 3804 ...
+2016-08-31T03:51:03.328922Z 0 [ERROR] Can't open shared library 'D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 找不到指定的模組。)
+2016-08-31T03:51:03.330423Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2016-08-31T03:51:03.332424Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-08-31T03:51:03.332924Z 0 [Note] InnoDB: Uses event mutexes
+2016-08-31T03:51:03.333425Z 0 [Note] InnoDB: Memory barrier is not used
+2016-08-31T03:51:03.333926Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-08-31T03:51:03.335426Z 0 [Note] InnoDB: Number of pools: 1
+2016-08-31T03:51:03.335927Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2016-08-31T03:51:03.430995Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2016-08-31T03:51:03.454010Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-08-31T03:51:03.503263Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-08-31T03:51:03.674385Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-08-31T03:51:03.675386Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-08-31T03:51:03.719417Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2016-08-31T03:51:03.730926Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-08-31T03:51:03.731926Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-08-31T03:51:03.733427Z 0 [Note] InnoDB: Waiting for purge to start
+2016-08-31T03:51:03.805148Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603786
+2016-08-31T03:51:03.806149Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-08-31T03:51:03.815655Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-08-31T03:51:03.819658Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2016-08-31T03:51:03.821159Z 0 [Note] IPv6 is available.
+2016-08-31T03:51:03.821659Z 0 [Note]   - '::' resolves to '::';
+2016-08-31T03:51:03.822160Z 0 [Note] Server socket created on IP: '::'.
+2016-08-31T03:51:03.825162Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2016-08-31T03:51:03.885705Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160831 11:51:03
+2016-08-31T03:51:03.953252Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-08-31T03:51:03.954253Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2016-08-31T03:51:33.704142Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2016-08-31T03:51:33.705142Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2016-08-31T03:51:33.705643Z 0 [Note] Shutting down slave threads
+2016-08-31T03:51:33.706143Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2016-08-31T03:51:33.706643Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2016-08-31T03:51:33.710647Z 0 [Note] Binlog end
+2016-08-31T03:51:33.711647Z 0 [Note] Shutting down plugin 'ngram'
+2016-08-31T03:51:33.712147Z 0 [Note] Shutting down plugin 'partition'
+2016-08-31T03:51:33.712648Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2016-08-31T03:51:33.713148Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2016-08-31T03:51:33.713148Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-08-31T03:51:33.713648Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-08-31T03:51:33.714149Z 0 [Note] Shutting down plugin 'MyISAM'
+2016-08-31T03:51:33.714649Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2016-08-31T03:51:33.715149Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-08-31T03:51:33.715649Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-08-31T03:51:33.716150Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-08-31T03:51:33.716650Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-08-31T03:51:33.717151Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-08-31T03:51:33.717652Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-08-31T03:51:33.718152Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-08-31T03:51:33.718152Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-08-31T03:51:33.718652Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-08-31T03:51:33.719153Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-08-31T03:51:33.719653Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-08-31T03:51:33.720153Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-08-31T03:51:33.720654Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-08-31T03:51:33.721154Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-08-31T03:51:33.721654Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-08-31T03:51:33.722155Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-08-31T03:51:33.722655Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2016-08-31T03:51:33.723156Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-08-31T03:51:33.723656Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-08-31T03:51:33.724156Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-08-31T03:51:33.724656Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-08-31T03:51:33.725156Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-08-31T03:51:33.725656Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-08-31T03:51:33.726157Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-08-31T03:51:33.726157Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-08-31T03:51:33.726657Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2016-08-31T03:51:33.727158Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-08-31T03:51:33.727658Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-08-31T03:51:33.728159Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2016-08-31T03:51:33.728659Z 0 [Note] Shutting down plugin 'InnoDB'
+2016-08-31T03:51:33.729159Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2016-08-31T03:51:33.729660Z 0 [Note] InnoDB: Starting shutdown...
+2016-08-31T03:51:33.830732Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2016-08-31T03:51:33.833734Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 160831 11:51:33
+2016-08-31T03:51:34.759392Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603814
+2016-08-31T03:51:34.760893Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2016-08-31T03:51:34.761393Z 0 [Note] Shutting down plugin 'MEMORY'
+2016-08-31T03:51:34.761893Z 0 [Note] Shutting down plugin 'CSV'
+2016-08-31T03:51:34.762394Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-08-31T03:51:34.762894Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-08-31T03:51:34.763394Z 0 [Note] Shutting down plugin 'binlog'
+2016-08-31T03:51:34.764896Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2016-08-31T03:51:35.352313Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-08-31T03:51:35.352313Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2016-08-31T03:51:35.352313Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2016-08-31T03:51:35.352313Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-08-31T03:51:35.352814Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 16720 ...
+2016-08-31T03:51:35.367324Z 0 [ERROR] Can't open shared library 'D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 找不到指定的模組。)
+2016-08-31T03:51:35.368324Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2016-08-31T03:51:35.370326Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-08-31T03:51:35.370827Z 0 [Note] InnoDB: Uses event mutexes
+2016-08-31T03:51:35.371327Z 0 [Note] InnoDB: Memory barrier is not used
+2016-08-31T03:51:35.373328Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-08-31T03:51:35.374829Z 0 [Note] InnoDB: Number of pools: 1
+2016-08-31T03:51:35.376330Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2016-08-31T03:51:35.440876Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2016-08-31T03:51:35.454385Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-08-31T03:51:35.500919Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-08-31T03:51:35.619003Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-08-31T03:51:35.620004Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-08-31T03:51:35.653527Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2016-08-31T03:51:35.661032Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-08-31T03:51:35.662033Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-08-31T03:51:35.663034Z 0 [Note] InnoDB: Waiting for purge to start
+2016-08-31T03:51:35.714570Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603814
+2016-08-31T03:51:35.715571Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-08-31T03:51:35.718073Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2016-08-31T03:51:35.727079Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-08-31T03:51:35.730582Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2016-08-31T03:51:35.732083Z 0 [Note] IPv6 is available.
+2016-08-31T03:51:35.733084Z 0 [Note]   - '::' resolves to '::';
+2016-08-31T03:51:35.733584Z 0 [Note] Server socket created on IP: '::'.
+2016-08-31T03:51:35.758102Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160831 11:51:35
+2016-08-31T03:51:35.784620Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-08-31T03:51:35.785121Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2016-08-31T03:52:54.705281Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2016-08-31T03:52:54.706281Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2016-08-31T03:52:54.706782Z 0 [Note] Shutting down slave threads
+2016-08-31T03:52:54.707282Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2016-08-31T03:52:54.707782Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2016-08-31T03:52:54.708783Z 0 [Note] Binlog end
+2016-08-31T03:52:54.709784Z 0 [Note] Shutting down plugin 'ngram'
+2016-08-31T03:52:54.710284Z 0 [Note] Shutting down plugin 'partition'
+2016-08-31T03:52:54.710785Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2016-08-31T03:52:54.711285Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2016-08-31T03:52:54.711285Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-08-31T03:52:54.711785Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-08-31T03:52:54.712285Z 0 [Note] Shutting down plugin 'MyISAM'
+2016-08-31T03:52:54.712786Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2016-08-31T03:52:54.713287Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-08-31T03:52:54.714287Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-08-31T03:52:54.714787Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-08-31T03:52:54.715288Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-08-31T03:52:54.715288Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-08-31T03:52:54.715788Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-08-31T03:52:54.716288Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-08-31T03:52:54.716789Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-08-31T03:52:54.717289Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-08-31T03:52:54.717789Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-08-31T03:52:54.718290Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-08-31T03:52:54.718790Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-08-31T03:52:54.719291Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-08-31T03:52:54.719791Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-08-31T03:52:54.720291Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-08-31T03:52:54.720791Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-08-31T03:52:54.720791Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2016-08-31T03:52:54.721291Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-08-31T03:52:54.721792Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-08-31T03:52:54.722293Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-08-31T03:52:54.722793Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-08-31T03:52:54.723293Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-08-31T03:52:54.723793Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-08-31T03:52:54.724294Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-08-31T03:52:54.724794Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-08-31T03:52:54.725295Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2016-08-31T03:52:54.725795Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-08-31T03:52:54.726295Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-08-31T03:52:54.726295Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2016-08-31T03:52:54.726795Z 0 [Note] Shutting down plugin 'InnoDB'
+2016-08-31T03:52:54.727297Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2016-08-31T03:52:54.727796Z 0 [Note] InnoDB: Starting shutdown...
+2016-08-31T03:52:54.828869Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2016-08-31T03:52:54.831870Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 160831 11:52:54
+2016-08-31T03:52:55.967177Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603842
+2016-08-31T03:52:55.969680Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2016-08-31T03:52:55.970180Z 0 [Note] Shutting down plugin 'MEMORY'
+2016-08-31T03:52:55.970680Z 0 [Note] Shutting down plugin 'CSV'
+2016-08-31T03:52:55.971180Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-08-31T03:52:55.971680Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-08-31T03:52:55.972180Z 0 [Note] Shutting down plugin 'binlog'
+2016-08-31T03:52:55.974183Z 0 [Note] D:\git_remote\laravel-book\Software\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
